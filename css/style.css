@@ -10,10 +10,15 @@
     max-width: 1000px;
     margin: 0 auto;
 }
+body{
+    font-family: 'PT Sans', sans-serif;
+}
 
 .my-row {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 30px;
 
 
 }
@@ -79,52 +84,92 @@ header {
     width: 100%;
     height: auto;
 }
-
-
+.card-text > h3{
+    color: #0084FD;
+}
+.my-card > h3{
+    color: #0084FD;
+}
+.special-awe {
+    color: #0084FD;;
+}
 .my-card {
     background-color: #B5DDFF;
     border-radius: 20px;
     padding: 15px;
-
-
+    text-align: center;
 }
-
 .my-card-special {
     background-color: #B5DDFF;
     border-radius: 20px;
     padding: 15px;
     padding-bottom: 0;
-
-
 }
+.my-card > * {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.card-text > * {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.apple{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: #0084FD;
+    color: white;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+
 
 /* second-section */
 .purple {
     background-color: #9792E4;
 }
-
-
-
-
-
 .strat-img>img {
     max-width: 100%;
 }
-
-
 .strat-text {
 
     border-radius: 20px;
 
 }
-
-.strat-text>p {
+.strat-text > * {
     color: white;
-
-
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.strat-special{
+    background-color: #9792E4;
+    border-radius: 50%;
+    padding: 15px;
+   
+    
+}
+.strat-img{
+    padding-bottom: 20px;
 }
 
-/* testimonials */
+
+
+
+
+
+
+
+
+
+
+/* partners */
 .face {
     width: 150px;
     height: 150px;
@@ -137,6 +182,23 @@ header {
     margin: 30px;
     border-radius: 15px;
     padding: 10px;
+    color: white;
+}
+.test-text{
+    padding: 20px;
+
+}
+.test-text > *{
+    margin-bottom: 20px;
+    
+}
+.partner-intro{
+    text-align: center;
+    margin-top: 20px;
+}
+.partner-intro > h2{
+    color: #9792E4;
+    margin-bottom: 15px;
 }
 
 /* benefits */
@@ -157,6 +219,11 @@ header {
     padding: 15px;
     border-radius: 20px;
     text-align: center;
+}
+.benefit-intro > h2{
+    color: white;
+    text-align: center;
+    padding: 15px;
 }
 /* about us */
 
@@ -240,6 +307,8 @@ header {
     .my-row {
         width: 70vw;
         margin: 0 auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
     }
 
     .my-card-special {
@@ -285,6 +354,10 @@ header {
         justify-content: center;
         align-items: center;
     }
+    .container-partner {
+        width: 70vw;
+        margin:0 auto;
+    }
 
     /* benefits */
     
@@ -295,6 +368,11 @@ header {
     .benefit-container {
         width: 70vw;
         margin: 0 auto;
+    }
+    /* about us */
+    .about-box {
+        width: 70vw;
+        margin:0 auto;
     }
 
     /* footer */
