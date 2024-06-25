@@ -154,7 +154,27 @@ header {
 
 .benefit-text{
     background-color: white;
+    padding: 15px;
+    border-radius: 20px;
+    text-align: center;
 }
+/* about us */
+
+
+/* footer */
+.foot-box{
+    background-color: #9792E4;
+    text-align: center;
+
+}
+.foot-box-down {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+}
+
+
+
 
 
 
@@ -181,6 +201,10 @@ header {
     /* benefits */
     .my-col.my-col-tablet-1-2 {
         width: calc(50% - 20px);
+    }
+    /* about-us */
+    .about-box{
+        display: flex;
     }
 
 
@@ -270,6 +294,12 @@ header {
     }
     .benefit-container {
         width: 70vw;
+        margin: 0 auto;
+    }
+
+    /* footer */
+    .footer-top, .footer-bottom {
+        width: 30vw;
         margin: 0 auto;
     }
 
